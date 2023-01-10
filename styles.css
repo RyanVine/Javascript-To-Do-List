@@ -107,4 +107,17 @@ main {
     background-color: var(--darkest);
     padding: 1rem;
     border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#tasks .task .content .text {
+    color: var(--light);
+    font-size: 1.25rem;
+    width: 100%;
+    display: block;
+    transition: 0.4s
+}
+
+#tasks .task .content .text:not(:read-only) {
+    color: var(--pink);
 }
